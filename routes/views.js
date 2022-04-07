@@ -5,10 +5,10 @@ const controllers = require('../controllers/api')
 
 route
     .route('/')
-    .post(controllers.send)
+    .post(controllers.home)
 
 route
     .route('/server/:id')
-    .post(controllers.login)
+    .post(controllers.server)
 
 module.exports = route;
