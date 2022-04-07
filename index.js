@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const cookieParser = require('cookie-parser');
 
+let viewsRouter = require('./routes/views');
+let api = require('./routes/api');
+
 require('dotenv').config();
 
 const app = express();
@@ -17,6 +20,9 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.use(cookieParser())
+
+app.use('/', viewsRouter)
+app.use('/api', api)
 
 app.use('*', (req, res) => {
     res.render('404')
