@@ -1,6 +1,6 @@
 options = {
-    username:           'Discord Bot',
-    avatar:             'https://cdn.discordapp.com/embed/avatars/1.png',
+    username:           'MELON#2871',
+    avatar:             'https://cdn.discordapp.com/avatars/808706062013825036/d1a733105cbc2fbf75ff61555a594dae.png?size=1024',
     verified:           false,
     noUser:             false,
     dataSpecified:      false,
