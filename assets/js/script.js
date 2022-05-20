@@ -87,17 +87,17 @@ jsonToBase64 = (jsonCode, withURL = false, redirect = false) => {
             author: {
                 name: "inthedark.org",
                 url: "https://japandotorg.me",
-                icon_url: "https://imgur.com/a/TBg2oeC"
+                icon_url: "https://cdn.discordapp.com/avatars/759180080328081450/a_1368f5831c38eb78c813bdb0869a7ae7.gif?size=1024"
             },
             thumbnail: {
-                url: "https://imgur.com/a/wRyN5jk"
+                url: "https://cdn.discordapp.com/avatars/808706062013825036/d1a733105cbc2fbf75ff61555a594dae.png?size=1024"
             },
             image: {
-                url: "https://imgur.com/a/wRyN5jk"
+                url: "https://cdn.discordapp.com/avatars/808706062013825036/d1a733105cbc2fbf75ff61555a594dae.png?size=1024"
             },
             footer: {
                 text: "melon <3",
-                icon_url: "https://imgur.com/a/wRyN5jk"
+                icon_url: "https://cdn.discordapp.com/avatars/808706062013825036/d1a733105cbc2fbf75ff61555a594dae.png?size=1024"
             },
             fields: [
                 {
